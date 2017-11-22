@@ -196,9 +196,3 @@ function init()
         context.fillStyle = 'rgba(32,35,45,' + opacity + ')'; // Background's color
         context.strokeStyle='rgb(241,231,192)'; // Star's color
     }
-
-// document.onmousemove = move;
-document.onkeypress = key_manager;
-document.onkeyup = release;
-document.onmousewheel = mouse_wheel;
-if (window.addEventListener) window.addEventListener('DOMMouseScroll', mouse_wheel, false);
