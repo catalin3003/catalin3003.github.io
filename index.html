@@ -18,27 +18,60 @@
 		<script src="build/modernizr.custom.js"></script>
 	</head>
 	<body onload="start()" onresize="resize()" onorientationchange="resize()">
+
 	<!-- Star Wars Canvas -->
 	<canvas id="starfield" style="position: absolute;" width="100vh" height="100vw"></canvas>
-	<!-- START -->
-	<section id="home-wrap" style="opacity: 1; display: block;" class="">
+
+	<!-- Star Wars Text -->
+	<div class="fade-header fadeInDown animated"></div>
+	<div class="fade-footer fadeInUp animated"></div>
+	<section class="star-wars">
+		<div class="crawl">
+			<div class="title">
+				<p>Episode VIII</p>
+				<h1>The last Developer</h1>
+				<h2>Catalin Magirescu</h2>
+				<h3>Lead Frontend UI Developer</h3>
+			</div>
+			<p>A lead UI developer for React/Redux, Vue.js & AngularJS builds, creating self-aware modular components and a frontend engineer providing a seamless bridge between design and back-end.</p>
+			<p>Specialties include UI development for large scale client-side web apps or CMS websites, full-stack JavaScript development, responsive web design, mobile optimization, and scalable, efficient CSS.</p>
+			<p>Technical expert able to architect projects from scratch or smoke jump when one goes off the rails :).</p>
+			<p><i style="text-decoration: overline">Check my stuff</i>:<br>
+				<a href="https://github.com/catalin3003/" target="_blank"><i class="fa fa-github"></i> GitHub</a>
+				<a href="https://bitbucket.org/catalin3003/" target="_blank" class="text-primary"><i class="fa fa-bitbucket"></i> Bitbucket</a>
+				<a href="https://codepen.io/cat3003/" target="_blank" class="text-success"><i class="fa fa-codepen"></i> CodePen</a>
+				<a href="https://catalin-magirescu.catcodes.com/" target="_blank" class="text-danger"><i class="fa fa-spin fa-empire"></i> Resume</a>
+				<a href="https://www.linkedin.com/in/catalin-magirescu/" target="_blank" class="text-info"><i class="fa fa-linkedin"></i> LinkedIn</a>
+			</p>
+			<h1>may the source be with you</h1>
+		</div>
+	</section>
+
+	<!-- Star Wars Stars & Intro Text-->
+	<section id="home-wrap" style="opacity: 1; display: block;">
 		<!-- Stars Overlay -->
 		<div id='stars'></div>
 		<div id='stars2'></div>
 		<div id='stars3'></div>
+		<!-- Intro Fade -->
 		<div class="content">
-			<h1 class="text-intro animated-middle fadeInUp"><span class="polyfy-title">▬▬ι═══════ﺤ may the CAT force be with you  -═══════ι▬▬</span></h1>
-		</div> <!-- /. content -->
-		<!-- Social icons -->
-		<div class="social-icons text-intro animated-middle fadeInUp">
-			<a href="https://github.com/catalin3003/" target="_blank"><i class="fa fa-github"></i></a>
-			<a href="https://bitbucket.org/catalin3003/" target="_blank"><i class="fa fa-bitbucket"></i></a>
-			<a href="https://codepen.io/cat3003/" target="_blank"><i class="fa fa-codepen"></i></a>
-			<a href="https://catalin-magirescu.catcodes.com/" target="_blank"><i class="fa fa-code"></i></a>
-			<a href="https://www.linkedin.com/in/catalin-magirescu/" target="_blank"><i class="fa fa-linkedin"></i></a>
-		</div> <!-- /. social-icons -->
+			<h1 class="text-intro animated fadeOut">
+				<span class="polyfy-title">
+					A long time ago, in a galaxy<br>
+					far, far away... &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				</span>
+			</h1>
+		</div>
 	</section>
-	<!-- END -->
+
+	<!-- Social icons -->
+	<div class="social-icons text-intro animated fadeInUpBig">
+		<a class="hoverA" href="https://github.com/catalin3003/" target="_blank"><i class="fa fa-github"></i><span>GitHub</span></a>
+		<a class="hoverA" href="https://bitbucket.org/catalin3003/" target="_blank"><i class="fa fa-bitbucket"></i><span>Bitbucket</span></a>
+		<a class="hoverA" href="https://codepen.io/cat3003/" target="_blank"><i class="fa fa-codepen"></i><span>CodePen</span></a>
+		<a class="hoverA" href="https://catalin-magirescu.catcodes.com/" target="_blank"><i class="fa fa-spin fa-empire"></i><span>My CV</span></a>
+		<a class="hoverA" href="https://www.linkedin.com/in/catalin-magirescu/" target="_blank"><i class="fa fa-linkedin"></i><span>LinkedIn</span></a><br>
+	</div>
 	<!-- ///////////////////\\\\\\\\\\\\\\\\\\\ -->
 	<!-- ********** Resources jQuery ********** -->
 	<!-- \\\\\\\\\\\\\\\\\\\/////////////////// -->
